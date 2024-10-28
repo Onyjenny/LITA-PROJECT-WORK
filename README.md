@@ -8,6 +8,7 @@ In today's data-driven world, the ability to interpret and leverage data has bec
 
 ### Project Objectives
 
-The primary aim of this project was to utilize data analysis techniques to uncover key insights,by exploring the dataset I sought to:
+The primary aim of this project was to utilize data analysis techniques to uncover key insights such as top selling products,regional performance and monthly sales trend.By exploring the dataset I sought to:
+
 
 
