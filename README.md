@@ -14,8 +14,12 @@ The primary aim of this project was to utilize data analysis techniques to uncov
 - Highlight trends and patterns that can inform strategic decisions.
 - Provide a comprehensive narrative that translates complex data into understandable insights.
 
-  ### Data Source
-  This data was provided by the INCUBATOR HUB as a project work 
+### Data Source
+The primary source of data used here is Lita Capstone Dataset.xlsx which was provided by the INCUBATOR HUB as a project work for every student.
+
+### 
+
+
 
 
 
