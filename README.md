@@ -8,9 +8,8 @@ In today's competitive subscription-based economy, understanding customer segmen
 
 ### Project Objectives
 
-The primary objectives of this project is to utilize data analytics techniques to categorize customers into meaningful segments and trends. understand customer behavior,analyze subscription patterns,track subscription types and identify key trends in cancellations and renewals. 
-
-.By exploring the dataset I sought to:
+The primary objectives of this project is to utilize data analytics techniques to categorize customers into meaningful segments and trends.To understand customer behavior,analyze subscription patterns,track subscription types and identify key trends in cancellations and renewals. 
+By exploring the dataset I sought to:
 
 - analyze usage behavior and engagement metrics
 - develop insights to tailor marketing strategies for each customer segment
@@ -20,11 +19,15 @@ The primary objectives of this project is to utilize data analytics techniques t
 ### Data Source
 The primary source of data used here is Lita Capstone Dataset.xlsx which was provided by the INCUBATOR HUB as a project work for every student.
 
-### Tools Used
+### Methodology
 - Micosoft Excel [Download Here](https://www.microsoft.com)
    1. for data cleaning 
    2. for analysis 
    3. for data visualization
+- Structured Query Language (SQL)
+   1. for quering
+   2. extraction and manipulation of data
+- PowerBI for visualization and report      
 - Github for porfolio building
 
 ### Data cleaning and Preparation
@@ -37,25 +40,23 @@ In the initial phase of the data cleaning and preparation,we performed the follo
 EDA involved the exploring of the data to answer some questions about the data such as;
 
  Excel: 
-o Analyze customer data using pivot tables to find subscription patterns. 
-o Calculate the average subscription duration and identify the most popular 
-subscription types. 
-o Create any other interesting reports. 
+- Analyze customer data using pivot tables to find subscription patterns. 
+- Calculate the average subscription duration and identify the most popular subscription types.
+- Create any other interesting reports. 
+
 2. SQL: 
-Hint – You need to load the dataset into your SQL Server environment to write 
-and validate your queries. 
+Hint – You need to load the dataset into your SQL Server environment to write and validate your queries. 
 Write queries to extract key insights based on the following questions.  
-o  retrieve the total number of customers from each region. 
-o  find the most popular subscription type by the number of customers. 
-o  find customers who canceled their subscription within 6 months. 
-o  calculate the average subscription duration for all customers. 
-o  find customers with subscriptions longer than 12 months. 
-o  calculate total revenue by subscription type. 
-o  find the top 3 regions by subscription cancellations. 
-o  find the total number of active and canceled subscriptions. 
+-  retrieve the total number of customers from each region.
+- find the most popular subscription type by the number of customers.
+- find customers who canceled their subscription within 6 months.
+- calculate the average subscription duration for all customers.
+- find customers with subscriptions longer than 12 months.
+- calculate total revenue by subscription type.
+- find the top 3 regions by subscription cancellations.
+- find the total number of active and canceled subscriptions. 
 3. Power BI: 
-o Build a Power BI dashboard that visualizes key customer segments, 
-cancellations, and subscription trends. Include slicers for interactive analysis.
+- Build a Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
 
 
 
