@@ -60,8 +60,66 @@ Write queries to extract key insights based on the following questions.
 
 ### Results and Interpretation
 
-<img width="426" alt="capstone customerdata" src="https://github.com/user-attachments/assets/68d5a9b6-1124-440f-9b07-78f54aaeb694">
+<img width="808" alt="capstone customerdata" src="https://github.com/user-attachments/assets/878fd7fb-2b1e-4554-b81d-e23297128b92">
 
 
+```SQL
+
+----1 Retrieve the total number of customers from each region---
+
+SELECT COUNT(*) AS Total_customer,Region 
+FROM [dbo].[LITACapstoneDataset2]
+GROUP BY Region ;
+
+---- 2 find the most popular subscription type by the number of customers---
+
+SELECT COUNT(*) AS Most_popular,Subscription_type
+FROM [dbo].[LITACapstoneDataset2]
+GROUP BY Subscription_type;
+
+--- 3 find customers who canceled their subscription within 6 months---
+SELECT Customer_id
+FROM [dbo].[LITACapstoneDataset2]
+WHERE Canceled = 1
+AND DATEDIFF(MONTH, Subscription_start, Subscription_end) <= 6
+
+---4  calculate the average subscription duration for all customers----
+SELECT AVG(Subscription_duration) AS Avg_sub_duration
+FROM [dbo].[LITACapstoneDataset2]
+
+
+---5  find customers with subscriptions longer than 12 months---
+SELECT Customer_id ,Subscription_duration
+FROM [dbo].[LITACapstoneDataset2]
+WHERE Subscription_duration > 366;
+
+------6  calculate total revenue by subscription type---
+SELECT SUM(Revenue) AS Total_revenue,Subscription_type
+FROM [dbo].[LITACapstoneDataset2]
+GROUP BY Subscription_type
+
+--- 7  find the top 3 regions by subscription cancellations----
+SELECT TOP 3 Region,COUNT(Canceled) AS Sub_cancellation
+FROM [dbo].[LITACapstoneDataset2]
+GROUP BY Region
+ORDER BY 2 DESC;
+
+---8  find the total number of active and canceled subscriptions----
+SELECT *
+FROM [dbo].[LITACapstoneDataset2]
+
+SELECT COUNT(Canceled) AS Total_Sub_count
+FROM [dbo].[LITACapstoneDataset2]
+ 
+
+SELECT COUNT(Canceled) AS Total_Sub_count
+FROM [dbo].[LITACapstoneDataset2]
+WHERE Canceled = 1 
+
+SELECT COUNT(Canceled) AS Total_Sub_count
+FROM [dbo].[LITACapstoneDataset2]
+WHERE Canceled = 0
+
+```
 
 
