@@ -39,7 +39,7 @@ In the initial phase of the data cleaning and preparation,the following actions 
 ### Exploratory Data Analysis
 EDA involved the exploring of the data to answer some questions about the data such as;
 
- Excel: 
+1. Excel: 
 - Analyze customer data using pivot tables to find subscription patterns. 
 - Calculate the average subscription duration and identify the most popular subscription types.
 - Create any other interesting reports. 
@@ -58,7 +58,9 @@ Write queries to extract key insights based on the following questions.
 3. Power BI: 
 - Build a Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
 
+### Results and Interpretation
 
+<img width="426" alt="capstone customerdata" src="https://github.com/user-attachments/assets/68d5a9b6-1124-440f-9b07-78f54aaeb694">
 
 
 
