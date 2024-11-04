@@ -13,7 +13,7 @@ By exploring the dataset I sought to:
 
 - analyze usage behavior and engagement metrics
 - develop insights to tailor marketing strategies for each customer segment
-- Highlight trends and patterns that can inform strategic decisions.
+- highlight trends and patterns that can inform strategic decisions.
 - enhance customer retention,suggest intervention to improve retention rate.
 
 ### Data Source
@@ -25,13 +25,13 @@ The primary source of data used here is Lita Capstone Dataset.xlsx which was pro
    2. for analysis 
    3. for data visualization
 - Structured Query Language (SQL)
-   1. for quering
+   1. for cleaning and querying
    2. extraction and manipulation of data
 - PowerBI for visualization and report      
 - Github for porfolio building
 
 ### Data cleaning and Preparation
-In the initial phase of the data cleaning and preparation,we performed the following actions;
+In the initial phase of the data cleaning and preparation,the following actions was performed;
 1. data loading and inspections to ensure accuracy and consistency
 2. handling missing variables
 3. data cleaning and formatting
