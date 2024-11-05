@@ -105,6 +105,14 @@ FROM [dbo].[LITACapstoneDataset2]
 GROUP BY Region
 ORDER BY 2 DESC;
 
+SELECT TOP 3 Region,COUNT(Canceled) AS Sub_cancellation
+FROM [dbo].[LITACapstoneDataset2]
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY 2 DESC;
+
+
+
 ---8  find the total number of active and canceled subscriptions----
 SELECT *
 FROM [dbo].[LITACapstoneDataset2]
@@ -125,7 +133,7 @@ WHERE Canceled = 0
 
 ### Data visualization
 
-Interactive dashboard that visualizes key customer segments, cancellations and subscription trends was created which reveals the several significant insights found in excel and SQL such as customers who canceled their subscription, which is '15,175' and active customers which '18,612'  while the total number of customers is 33,787.
+Interactive dashboard that visualizes key customer segments, cancellations and subscription trends was created which reveals the several significant insights found in excel and SQL such as customers who canceled their subscription, which is '15,175' and active customers which '18,612'  while the total number of customers is 33,787.Filtering on the Region, in the North '5067' canceled subscription and its the top area where customers cancelled subscription,although the difference in the cancelled numbers in the top 3 regions is not so significant.
 
 
 <img width="598" alt="customerdata powerBI" src="https://github.com/user-attachments/assets/197fd5df-72df-4b8a-803c-58e06f84a613">
