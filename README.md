@@ -13,14 +13,14 @@ By exploring the dataset I sought to:
 
 - analyze usage behavior and engagement metrics
 - develop insights to tailor marketing strategies for each customer segment
-- highlight trends and patterns that can inform strategic decisions.
+- highlight trends and patterns that can inform strategic decisions
 - enhance customer retention,suggest intervention to improve retention rate.
 
 ### Data Source
 The primary source of data used here is Lita Capstone Dataset.xlsx which was provided by the INCUBATOR HUB as a project work for every student.
 
 ### Methodology
-- Micosoft Excel [Download Here](https://www.microsoft.com)
+- Micosoft Excel 
    1. for data cleaning 
    2. for analysis 
    3. for data visualization
@@ -62,6 +62,7 @@ Write queries to extract key insights based on the following questions.
 
 <img width="808" alt="capstone customerdata" src="https://github.com/user-attachments/assets/878fd7fb-2b1e-4554-b81d-e23297128b92">
 
+These pivot tables summarizes 'Basic' as  the subscription type with the highest revenue and it is also the most popular by count of '16921'.The average duration is 365.35 and this means its a yearly subscription regardless of the type of subscription.
 
 ```SQL
 
@@ -124,6 +125,9 @@ WHERE Canceled = 0
 
 ### Data visualization
 
+Interactive dashboard that visualizes key customer segments, cancellations and subscription trends was created which reveals the several significant insights found in excel and SQL such as customers who canceled their subscription, which is '15,175' and active customers which '18,612' 33,787
+
+
 <img width="598" alt="customerdata powerBI" src="https://github.com/user-attachments/assets/197fd5df-72df-4b8a-803c-58e06f84a613">
 
-
+ 
