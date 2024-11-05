@@ -122,4 +122,8 @@ WHERE Canceled = 0
 
 ```
 
+### Data visualization
+
+<img width="598" alt="customerdata powerBI" src="https://github.com/user-attachments/assets/197fd5df-72df-4b8a-803c-58e06f84a613">
+
 
