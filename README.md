@@ -125,7 +125,7 @@ WHERE Canceled = 0
 
 ### Data visualization
 
-Interactive dashboard that visualizes key customer segments, cancellations and subscription trends was created which reveals the several significant insights found in excel and SQL such as customers who canceled their subscription, which is '15,175' and active customers which '18,612' 33,787
+Interactive dashboard that visualizes key customer segments, cancellations and subscription trends was created which reveals the several significant insights found in excel and SQL such as customers who canceled their subscription, which is '15,175' and active customers which '18,612'  while the total number of customers is 33,787.
 
 
 <img width="598" alt="customerdata powerBI" src="https://github.com/user-attachments/assets/197fd5df-72df-4b8a-803c-58e06f84a613">
