@@ -142,7 +142,11 @@ Interactive dashboard that visualizes key customer segments, cancellations and s
 
 The insight gotten from this segmentation analysis provide a roadmap for targeted strategies:
 
--customized marketing campaigns: Tailor marketing efforts to the specific needs and preferences of each of the region
--
- ### Conclusion
+- Customized Marketing Campaigns: Tailor marketing efforts to the specific needs and preferences of each of the region
+- Retention Strategies: The value for churned customers is very high,theres a need to implement targeted interventions for all segments to improve retention and reduce churn.
+- Product Development: Innovate and refine product offerings based on the preferences and behaviors of different segments.
+
+### Conclusion
+
+This project underscores the importance of understanding customer diversity. By leveraging data-driven insights, businesses can enhance customer experiences, optimize marketing efforts, and ultimately drive growth and loyalty in a competitive market.
 
