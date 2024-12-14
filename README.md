@@ -130,6 +130,14 @@ FROM [dbo].[LITACapstoneDataset2]
 WHERE Canceled = 0
 
 ```
+<img width="271" alt="totsl customer output 2" src="https://github.com/user-attachments/assets/fea2d871-5af7-4a68-9a89-97eb81b5b605" />
+<img width="374" alt="most pop sub output" src="https://github.com/user-attachments/assets/8c68c3b0-5f02-4ef6-8e37-33906610e5d1" />
+<img width="533" alt="6 months canceled" src="https://github.com/user-attachments/assets/dc1344f0-b9e3-48d6-8c45-716a9bb1c1ab" />
+<img width="435" alt="avg sub duration" src="https://github.com/user-attachments/assets/75ab090f-b035-4b9f-ae17-0126e77e5949" />
+<img width="464" alt="12 months canceled" src="https://github.com/user-attachments/assets/c064e2a0-4736-410a-b0ec-2b65d84cb290" />
+<img width="536" alt="total revenue output" src="https://github.com/user-attachments/assets/f8a2936e-77b7-4c95-b9c7-3d0a6404e7ff" />
+<img width="482" alt="top 3 canceled" src="https://github.com/user-attachments/assets/f8be7ccf-bb04-4e17-b91a-2de9756de8f0" />
+<img width="736" alt="active and canceled sub" src="https://github.com/user-attachments/assets/91a5b31d-f622-4b1d-8432-b86275a87d19" />
 
 ### Data visualization
 
